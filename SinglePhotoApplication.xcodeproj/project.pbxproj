@@ -14,6 +14,7 @@
 		7657527C1F033ABC00821A14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7657527A1F033ABC00821A14 /* LaunchScreen.storyboard */; };
 		765752871F033ABD00821A14 /* SinglePhotoApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765752861F033ABD00821A14 /* SinglePhotoApplicationTests.swift */; };
 		765752921F033ABD00821A14 /* SinglePhotoApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765752911F033ABD00821A14 /* SinglePhotoApplicationUITests.swift */; };
+		765752A11F033BA400821A14 /* Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 765752A01F033BA400821A14 /* Image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7657528D1F033ABD00821A14 /* SinglePhotoApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinglePhotoApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		765752911F033ABD00821A14 /* SinglePhotoApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePhotoApplicationUITests.swift; sourceTree = "<group>"; };
 		765752931F033ABD00821A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		765752A01F033BA400821A14 /* Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				765752781F033ABC00821A14 /* Assets.xcassets */,
 				7657527A1F033ABC00821A14 /* LaunchScreen.storyboard */,
 				7657527D1F033ABC00821A14 /* Info.plist */,
+				7657529F1F033B9400821A14 /* Images */,
 			);
 			path = SinglePhotoApplication;
 			sourceTree = "<group>";
@@ -123,6 +126,14 @@
 				765752931F033ABD00821A14 /* Info.plist */,
 			);
 			path = SinglePhotoApplicationUITests;
+			sourceTree = "<group>";
+		};
+		7657529F1F033B9400821A14 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				765752A01F033BA400821A14 /* Image.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +249,7 @@
 				7657527C1F033ABC00821A14 /* LaunchScreen.storyboard in Resources */,
 				765752791F033ABC00821A14 /* Assets.xcassets in Resources */,
 				765752771F033ABC00821A14 /* Main.storyboard in Resources */,
+				765752A11F033BA400821A14 /* Image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
